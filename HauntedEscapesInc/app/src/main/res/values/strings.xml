@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HauntedEscapesInc</string>
+    <string name="haunted_escapes">Haunted Escapes</string>
+    <string name="haunted_escapes_inc">Haunted Escapes Inc. </string>
+    <string name="description">With a number of escapes, including our popular \'Haunted Barn\', \'Spooky Crypt\', and \'Fallout Shelter\', we bring you the most unique and creepy Escape Experiences out there.</string>
+    <string name="email">getscared@hauntedesc.com</string>
+    <string name="phonenum">1(913)333-1245</string>
+    <string name="website">www.hauntedescapes.com</string>
+    <string name="website_icon">website icon</string>
+    <string name="phone_icon">phone_icon</string>
+    <string name="haunted_barn_photo">haunted barn photo I took</string>
+    <string name="email_icon">email icon</string>
+</resources>
