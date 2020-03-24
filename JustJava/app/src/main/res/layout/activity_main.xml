@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal"
+        android:paddingTop="@dimen/activity_vertical"
+        android:paddingRight="@dimen/activity_horizontal"
+        android:paddingBottom="@dimen/activity_vertical">
+
+        <EditText
+            android:id="@+id/name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical"
+            android:layout_marginBottom="@dimen/activity_vertical"
+            android:hint="@string/type_your_name_here"
+            android:inputType="textPersonName" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="@dimen/activity_vertical"
+            android:fontFamily="sans-serif"
+            android:text="@string/toppings"
+             />
+
+        <CheckBox
+            android:id="@+id/whipped_cream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical"
+            android:layout_marginBottom="@dimen/activity_vertical"
+            android:text="@string/whipped_cream"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size" />
+
+        <CheckBox
+            android:id="@+id/choco_plox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical"
+            android:layout_marginBottom="@dimen/activity_vertical"
+            android:text="@string/chocolate_topping"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical"
+            android:fontFamily="sans-serif"
+            android:text="@string/Quantity"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/decrement_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/activity_vertical"
+                android:onClick="decrement"
+                android:text="@string/decrement" />
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_space"
+                android:layout_marginLeft="@dimen/activity_space"
+                android:layout_marginEnd="@dimen/activity_space"
+                android:layout_marginRight="@dimen/activity_space"
+                android:layout_marginBottom="@dimen/activity_vertical"
+                android:fontFamily="sans-serif"
+                android:text="@string/quantity_text_view"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:id="@+id/increment_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/activity_vertical"
+                android:onClick="increment"
+                android:text="@string/increment" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical"
+            android:fontFamily="sans-serif"
+            android:text="@string/order_summary_textView"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/order_summary_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical"
+            android:fontFamily="sans-serif"
+            android:text="@string/price_view"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size" />
+
+        <Button
+            android:id="@+id/order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical"
+            android:fontFamily="sans-serif"
+            android:onClick="submitOrder"
+            android:text="@string/order_button_text"
+            android:textSize="@dimen/text_size" />
+
+
+    </LinearLayout>
+</ScrollView>
