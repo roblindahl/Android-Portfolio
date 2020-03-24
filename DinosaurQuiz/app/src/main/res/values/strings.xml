@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dinosaur Quiz</string>
+    <string name="quiz_main_description">How much do you know about Dinosaurs? \n \n Let\'s Find out!</string>
+    <string name="question1">True or False\: Dinosaurs are classified into subgroups based on skeletal features:</string>
+    <string name="question2">How many species of Utahraptors are known to exist?</string>
+    <string name="question3">The largest dinosaur was the ___________.</string>
+    <string name="question4">Which of these Dinosaurs are not Carnivores?</string>
+    <string name="answer_question3">Name the largest dinosaur</string>
+    <string name="choice_true">True</string>
+    <string name="choice_false">False</string>
+    <string name="auto_fill_hint">Largest Dinosaur</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="thirty">30</string>
+    <string name="infinite">Infinite</string>
+    <string name="allosaurus">Allosaurus</string>
+    <string name="argentinosaurus">Argentinosaurus</string>
+    <string name="mapusaurus">Mapusaurus</string>
+    <string name="diplodocus">Diplodocus</string>
+    <string name="submit_button_text">Submit Answers</string>
+    <string name="answerOne">\nDinosaur subgroups are classified by bone structure. \n With particular scrutiny given to their hips, legs, and backbones.</string>
+    <string name="answerTwo">\nThere is only one species of Utahraptor. \nUtahraptor ostrommaysi was found in the United States. \nWhile somewhat controversial, it is said they were the deadliest of dinosaurs.</string>
+    <string name="answerThree">\nThe largest known dinosaur is the Argentinosaurus. \nFound in South America, this giant sauropod lived in the Late Cretaceous period.</string>
+    <string name="answerFour">\nThe Allosaurus and Mapusaurus were both Carnosaurians which, as the name implies, means they were Carnivores. \nThe Argentinosaurus and the Diplodocus on the other hand are herbivores.</string>
+</resources>

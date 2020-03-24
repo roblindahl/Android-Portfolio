@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DisplayAnswersActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal"
+    android:paddingTop="@dimen/activity_vertical"
+    android:paddingRight="@dimen/activity_horizontal"
+    android:paddingBottom="@dimen/activity_vertical"
+    android:background="@drawable/gradient_drawable"
+    >
+
+    <TextView
+        android:id="@+id/answers"
+        style="@style/AnswerTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+</LinearLayout>
